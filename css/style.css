@@ -5,3 +5,150 @@
     box-sizing:border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The header */
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1b6f8a;
+}
+
+/* Nav */
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-list a:hover {
+    color: #1b6f8a;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+
+    text-decoration: none;
+    border-radius: 6px;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #1b6f8a;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #15596f;
+}
+
+/* Hero */
+
+.hero {
+    padding: 80px 0;
+    background-color: #f5fbfd;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+.hero-subtitle {
+    color: #1b6f8a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    color: #1f2933;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #667085;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #1b6f8a;
+    border: 1px solid #1b6f8a;
+}
+
+.btn-secondary:hover {
+    background-color: #1b6f8a;
+    color: #ffffff;
+}
+
+.hero-image img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
