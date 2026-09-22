@@ -286,7 +286,121 @@
             </div>
         </section>
 
-        <section id="appointment"></section>
+        <section class="appointment" id="appointment">
+            <div class="container appointment-container">
+
+                <div class="appointment-content">
+                    <p class="section-subtitle">Book an Appointment</p>
+
+                    <h2>Ready to Take Care of Your Smile?</h2>
+
+                    <p class="appointment-description">
+                        Schedule your visit with our dental team and we'll help you
+                        find the right treatment for your needs.
+                    </p>
+
+                    <div class="appointment-benefits">
+                        <div class="appointment-benefit">
+                            <span>✓</span>
+                            <p>Quick and easy appointment booking</p>
+                        </div>
+
+                        <div class="appointment-benefit">
+                            <span>✓</span>
+                            <p>Flexible appointment times</p>
+                        </div>
+
+                        <div class="appointment-benefit">
+                            <span>✓</span>
+                            <p>Friendly and professional care</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="appointment-form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+1 234 567 890"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="service">Service</label>
+
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="general">General Dentistry</option>
+                                <option value="whitening">Teeth Whitening</option>
+                                <option value="implants">Dental Implants</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Tell us anything we should know..."
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Book Appointment
+                    </button>
+
+                </form>
+            </div>
+        </section>
     </main>
     
     <footer>
