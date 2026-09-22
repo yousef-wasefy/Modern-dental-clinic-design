@@ -318,7 +318,9 @@
                 </div>
 
 
-                <form class="appointment-form">
+                <form class="appointment-form" id="appointment-form"
+                    action="https://formspree.io/f/xzezrydq" 
+                    method="POST">
 
                     <div class="form-group">
                         <label for="name">Full Name</label>
@@ -397,6 +399,8 @@
                     <button type="submit" class="btn btn-primary">
                         Book Appointment
                     </button>
+
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
 
                 </form>
             </div>

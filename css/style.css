@@ -561,6 +561,12 @@ body {
     cursor: pointer;
 }
 
+.form-status {
+    margin-top: 16px;
+    color: #1b6f8a;
+    font-weight: 600;
+}
+
 /* Footer */
 .footer {
     background-color: #102f3a;
