@@ -561,6 +561,76 @@ body {
     cursor: pointer;
 }
 
+/* Footer */
+.footer {
+    background-color: #102f3a;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.4fr repeat(3, 1fr);
+    gap: 50px;
+
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    display: inline-block;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.footer-brand p {
+    max-width: 320px;
+
+    color: #c8d5d9;
+    line-height: 1.7;
+}
+
+.footer-column h3 {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+    color: #c8d5d9;
+    line-height: 1.6;
+}
+
+.footer-column a {
+    color: #c8d5d9;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 20px 0;
+
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #aebfc4;
+    font-size: 14px;
+}
+
 @media (max-width: 768px) {
     /* Hero */
     .hero {
@@ -723,6 +793,12 @@ body {
         gap: 0;
     }
 
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -790,5 +866,17 @@ body {
 
     .appointment-form {
         padding: 24px;
+    }
+
+
+    .footer-container {
+        grid-template-columns: 1fr;
+
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    .footer-bottom {
+        text-align: left;
     }
 }
