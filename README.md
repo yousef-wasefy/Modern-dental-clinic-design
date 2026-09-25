@@ -9,12 +9,16 @@ Designed to showcase dental services, provide a smooth browsing experience acros
 
 [View Live Website](https://yousef-wasefy.github.io/dental-clinic-landing-page/)
 
+**Demo Notice:** This is a fictional dental clinic website created for portfolio purposes. No real appointments can be booked. Please use fictional information when testing the appointment form.
+
 ## Screenshots
 
 ### Desktop Preview
+
 ![Desktop Preview](screenshots/desktop.png)
 
 ### Mobile Preview
+
 ![Mobile Preview](screenshots/mobile.png)
 
 ## Features
@@ -64,6 +68,8 @@ The form includes:
 
 **Note:** The form collects appointment requests. It does not automatically confirm appointments or check real-time availability.
 
+Since this is a portfolio demonstration, the form should only be tested using fictional information. Submissions are sent to the configured Formspree inbox, but no real appointments are scheduled.
+
 ## Getting Started
 
 1. Clone the repository:
@@ -88,7 +94,13 @@ The form includes:
 
 ## Disclaimer
 
-This is a portfolio demonstration project. Clinic information and testimonials are sample content and do not represent a real dental practice.
+DentaCare is a fictional dental clinic created solely as a portfolio demonstration project.
+
+All clinic information, contact details, patient testimonials, and business claims are fictional and provided for demonstration purposes.
+
+The appointment request form demonstrates a functional third-party form integration. It is not connected to a real dental practice, and submitting the form does not create or confirm an appointment.
+
+Please do not submit real patient information or sensitive medical details.
 
 ## Author
 
